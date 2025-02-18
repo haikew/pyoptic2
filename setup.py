@@ -2,6 +2,7 @@
 
 __version__ = '0.9.0'
 
+import sys
 from setuptools import setup, find_packages
 from os import path
 
@@ -42,6 +43,6 @@ if __name__ == '__main__':
                           'all': ['mayavi',
                                    'lxml',
                                    'requests',
-                                   'beautifulsoup4']},},
+                                   'beautifulsoup4']},
           python_requires=">=3.6"
     )
